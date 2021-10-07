@@ -7,7 +7,7 @@ import ListCard from '../components/ListCard'
 import list from '../data/list'
 import { Link } from "react-router-dom";
 
-
+//zhongx!Iris
 
 
 
@@ -139,7 +139,7 @@ class Homepage extends React.Component {
                       <div>
                         <Image src="https://blobs.zhxi.co/students/iris/image/home1.jpg" />
                       </div>
-                      
+
                     </Slider>
                   </div>
 
@@ -172,26 +172,29 @@ class Homepage extends React.Component {
 
 
                 <Grid.Column>
-                <div className="words">
-                <h1>Talk Me down</h1>
-                  <Icon disabled name='heart'/><Icon disabled name='heart'/><Icon disabled name='heart'/><Icon disabled name='heart outline'/><Icon disabled name='heart outline'/>
-                  <h3>description</h3>
-                  <Button onClick={this.openImage} >see the video</Button>
-                  <Modal onOpen={this.openImage}
-                    onClose={this.closeImage}
-                    open={this.state.modalOpen}
-                    size='small'
+                  <div className="words">
+                    <h1>Talk Me down</h1>
+                    <Icon disabled name='heart' /><Icon disabled name='heart' /><Icon disabled name='heart' /><Icon disabled name='heart outline' /><Icon disabled name='heart outline' />
+                    <h3>The final of Troye Sivan's Blue Trilogy --- The ending of a love story between two boys</h3>
+                    <h4>
+                      "I'd rather fuel a fantasy than deal with this alone."
+                    </h4>
+                    <Button onClick={this.openImage} >check the video</Button>
+                    <Modal onOpen={this.openImage}
+                      onClose={this.closeImage}
+                      open={this.state.modalOpen}
+                      size='small'
 
-                    closeIcon
-                  >
+                      closeIcon
+                    >
 
-                    <Player>
-                      <source src="https://blobs.zhxi.co/students/iris/video/Troye Sivan-TALK ME DOWN(超清).mp4" />
-                    </Player>
+                      <Player>
+                        <source src="https://blobs.zhxi.co/students/iris/video/Troye Sivan-TALK ME DOWN(超清).mp4" />
+                      </Player>
 
-                  </Modal>
-                </div>
-                  
+                    </Modal>
+                  </div>
+
                 </Grid.Column>
 
 
@@ -211,9 +214,13 @@ class Homepage extends React.Component {
                 <Grid.Column>
                   <div className="words" >
                     <h1>Dusk Till Down</h1>
-                    <Icon disabled name='heart'/><Icon disabled name='heart'/><Icon disabled name='heart'/><Icon disabled name='heart'/><Icon disabled name='heart outline'/>
-                    <h3>description</h3>
-                    <Button onClick={this.openImage1} >see the video</Button>
+                    <Icon disabled name='heart' /><Icon disabled name='heart' /><Icon disabled name='heart' /><Icon disabled name='heart' /><Icon disabled name='heart outline' />
+                    <h3>
+                    An mv with movie-like wonderful plot</h3>
+                    <h4>
+                    With perfect chemical reaction of ZAYN and Sia's voice, this song debuted at number 44 on the US Billboard chart [1] in its first week, topping the charts in 6 countries and reaching the top 10 in 20 countries including Australia, Canada, Countries, France and the UK.
+                    </h4>
+                    <Button onClick={this.openImage1} >check the video</Button>
                     <Modal onOpen={this.openImage1}
                       onClose={this.closeImage1}
                       open={this.state.modalOpen1}
@@ -258,28 +265,27 @@ class Homepage extends React.Component {
 
 
                 <Grid.Column>
-                <div id="section1-6-2" className="words">
-                  <h1>Hello Future</h1>
-                  <Icon disabled name='heart'/><Icon disabled name='heart'/><Icon disabled name='heart'/><Icon disabled name='heart outline'/><Icon disabled name='heart outline'/>
-                  <h3>NCTDream is back with a regular follow-up "Hello Future" 🥳</h3>
-                  <h4>The main song 'Hello Future' is a hip pop dance music with trap rhythm, which combines the strong synthesizer and the hook of addictive atmosphere. 
-                    The lyrics are full of vitality to express the growing together with the coming hopeful Future after overcoming the trauma of war. 
-                    Love and trust for each other will shine brighter and stronger the message. 
-                  </h4>
-                  <Button onClick={this.openImage2} >see the video</Button>
-                  <Modal onOpen={this.openImage2}
-                    onClose={this.closeImage2}
-                    open={this.state.modalOpen2}
-                    size='small'
+                  <div id="section1-6-2" className="words">
+                    <h1>Hello Future</h1>
+                    <Icon disabled name='heart' /><Icon disabled name='heart' /><Icon disabled name='heart' /><Icon disabled name='heart outline' /><Icon disabled name='heart outline' />
+                    <h3>NCTDream is back with a regular follow-up "Hello Future" 🥳</h3>
+                    <h4>The main song 'Hello Future' is a hip pop dance music with trap rhythm, which combines the strong synthesizer and the hook of addictive atmosphere.
+                      The lyrics are full of vitality to express the growing together with the coming hopeful Future after overcoming the trauma of war.
+                    </h4>
+                    <Button onClick={this.openImage2} >check the video</Button>
+                    <Modal onOpen={this.openImage2}
+                      onClose={this.closeImage2}
+                      open={this.state.modalOpen2}
+                      size='small'
 
-                    closeIcon
-                  >
+                      closeIcon
+                    >
 
-                    <Player>
-                      <source src="https://blobs.zhxi.co/students/iris/video/NCT DREAM-NCT DREAMHello FutureMV(蓝光).mp4" />
-                    </Player>
-                  </Modal>
-                </div>
+                      <Player>
+                        <source src="https://blobs.zhxi.co/students/iris/video/NCT DREAM-NCT DREAMHello FutureMV(蓝光).mp4" />
+                      </Player>
+                    </Modal>
+                  </div>
                 </Grid.Column>
 
 
@@ -324,10 +330,10 @@ class Homepage extends React.Component {
                     <h3>"Sweetner" in my life</h3>
                     <h5> "She is a star on her own terms, never bending to any particular musical trend or path in the industry"</h5>
                     <p>Knowing Ariana Grande through her music then getting to learn more about her as a person,
-                    her voice can always make me cheer up and stay faithful and her convictions and actions that "consistently stands up for herself
-                    and her decisions in a world that isn't often hospitable to that sort of strength in young women"  constantly motivate me to keep moving forward...
+                      her voice can always make me cheer up and stay faithful and her convictions and actions that "consistently stands up for herself
+                      and her decisions in a world that isn't often hospitable to that sort of strength in young women"  constantly motivate me to keep moving forward...
                     </p>
-                    
+
                     <Button circular size="big" as={Link} to="artist/1" onClick={this.openImage2}>check</Button>
                   </div>
 
@@ -354,10 +360,10 @@ class Homepage extends React.Component {
                     <h3>"Bloom" like a flower</h3>
                     <h5> "She is a star on her own terms, never bending to any particular musical trend or path in the industry"</h5>
                     <p>Knowing Ariana Grande through her music then getting to learn more about her as a person,
-                    her voice can always make me cheer up and stay faithful and her convictions and actions that "consistently stands up for herself
-                    and her decisions in a world that isn't often hospitable to that sort of strength in young women"  constantly motivate me to keep moving forward...
+                      her voice can always make me cheer up and stay faithful and her convictions and actions that "consistently stands up for herself
+                      and her decisions in a world that isn't often hospitable to that sort of strength in young women"  constantly motivate me to keep moving forward...
                     </p>
-                    
+
                     <Button circular size="big" as={Link} to="artist/2" onClick={this.openImage3}>check</Button>
                   </div>
                 </Grid.Column>
@@ -421,10 +427,10 @@ class Homepage extends React.Component {
                     <h3>"8TEEN" but the opposite of "Young Dumb & Broke"</h3>
                     <h5> "She is a star on her own terms, never bending to any particular musical trend or path in the industry"</h5>
                     <p>Knowing Ariana Grande through her music then getting to learn more about her as a person,
-                    her voice can always make me cheer up and stay faithful and her convictions and actions that "consistently stands up for herself
-                    and her decisions in a world that isn't often hospitable to that sort of strength in young women"  constantly motivate me to keep moving forward...
+                      her voice can always make me cheer up and stay faithful and her convictions and actions that "consistently stands up for herself
+                      and her decisions in a world that isn't often hospitable to that sort of strength in young women"  constantly motivate me to keep moving forward...
                     </p>
-                    
+
                     <Button circular size="big" as={Link} to="artist/8" onClick={this.openImage3}>check</Button>
                   </div>
                 </Grid.Column>
@@ -448,10 +454,10 @@ class Homepage extends React.Component {
                     <h3>Youth & Dream</h3>
                     <h5> "She is a star on her own terms, never bending to any particular musical trend or path in the industry"</h5>
                     <p>Knowing Ariana Grande through her music then getting to learn more about her as a person,
-                    her voice can always make me cheer up and stay faithful and her convictions and actions that "consistently stands up for herself
-                    and her decisions in a world that isn't often hospitable to that sort of strength in young women"  constantly motivate me to keep moving forward...
+                      her voice can always make me cheer up and stay faithful and her convictions and actions that "consistently stands up for herself
+                      and her decisions in a world that isn't often hospitable to that sort of strength in young women"  constantly motivate me to keep moving forward...
                     </p>
-                    
+
                     <Button circular size="big" as={Link} to="artist/16" onClick={this.openImage3}>check</Button>
                   </div>
                 </Grid.Column>
@@ -494,10 +500,10 @@ class Homepage extends React.Component {
                     <h3>"You never know" girls' power</h3>
                     <h5> "She is a star on her own terms, never bending to any particular musical trend or path in the industry"</h5>
                     <p>Knowing Ariana Grande through her music then getting to learn more about her as a person,
-                    her voice can always make me cheer up and stay faithful and her convictions and actions that "consistently stands up for herself
-                    and her decisions in a world that isn't often hospitable to that sort of strength in young women"  constantly motivate me to keep moving forward...
+                      her voice can always make me cheer up and stay faithful and her convictions and actions that "consistently stands up for herself
+                      and her decisions in a world that isn't often hospitable to that sort of strength in young women"  constantly motivate me to keep moving forward...
                     </p>
-                   
+
                     <Button circular size="big" as={Link} to="artist/17" onClick={this.openImage3}>check</Button>
                   </div>
                 </Grid.Column>
