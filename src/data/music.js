@@ -79,78 +79,88 @@ var singers = [{
   Name: "Lauv",
   tags: ["pop", 'male'],
   imageUrl: "https://picsum.photos/500"
+},{
+  id:19,
+  Name: "Higher Brothers/HARIKIRI",
+  tags: ["pop", 'male'],
+  imageUrl: "https://picsum.photos/500"
+},{
+  id:110,
+  Name: "Maroon5",
+  tags: ["pop", 'male'],
+  imageUrl: "https://picsum.photos/500"
+},{
+  id:111,
+  Name: "XXXTentacion",
+  tags: ["pop", 'male'],
+  imageUrl: "https://picsum.photos/500"
+},{
+  id:112,
+  Name: "Justin Bieber",
+  tags: ["pop", 'male'],
+  imageUrl: "https://picsum.photos/500"
+},{
+  id:113,
+  Name: "Shawn Mendes",
+  tags: ["pop", 'male'],
+  imageUrl: "https://picsum.photos/500"
+},{
+  id:114,
+  Name: "Drake",
+  tags: ["pop", 'male'],
+  imageUrl: "https://picsum.photos/500"
+},{
+  id:115,
+  Name: "PARTYNEXTDOOR",
+  tags: ["pop", 'male'],
+  imageUrl: "https://picsum.photos/500"
+},{
+  id:116,
+  Name: "Giveon",
+  tags: ["pop", 'male'],
+  imageUrl: "https://picsum.photos/500"
+},{
+  id:117,
+  Name: "Russ",
+  tags: ["pop", 'male'],
+  imageUrl: "https://picsum.photos/500"
+},{
+  id:118,
+  Name: "Conan Grey",
+  tags: ["pop", 'male'],
+  imageUrl: "https://picsum.photos/500"
+},{
+  id:119,
+  Name: "benny blanco",
+  tags: ["pop", 'male'],
+  imageUrl: "https://picsum.photos/500"
+},{
+  id:120,
+  Name: "Bruno Major",
+  tags: ["pop", 'male'],
+  imageUrl: "https://picsum.photos/500"
+},{
+  id:121,
+  Name: "Jiayun Yu",
+  tags: ["pop", 'male'],
+  imageUrl: "https://picsum.photos/500"
+},{
+  id:122,
+  Name: "Tablo",
+  tags: ["pop", 'male'],
+  imageUrl: "https://picsum.photos/500"
+},{
+  id:123,
+  Name: "Taeyang",
+  tags: ["pop", 'male'],
+  imageUrl: "https://picsum.photos/500"
+},{
+  id:124,
+  Name: "Michael Jackson",
+  tags: ["pop", 'male'],
+  imageUrl: "https://picsum.photos/500"
 }]
 
-
-var songs = [
-  {
-    id: 11,
-    title: 'Dance To This',
-    singer: 2,
-    tags: ['pop', 'english'],
-    album: "Bloom",
-    fileUrl: "music/test/Troye Sivan _ Ariana Grande - Dance To This.mp3",
-    imageUrl: "https://picsum.photos/500"
-  }, {
-    id: 12,
-    title: 'Quit',
-    singer: 1,
-    tags: ['Electronica', 'english'],
-    album: "9",
-    qqUrl: "https://.....",
-    fileUrl: "music/test/The Kid LAROI _ Juice WRLD - GO (Explicit).mp3"
-  }, {
-    id: 13,
-    title: 'thank u, next',
-    singer: 1,
-    tags: ['pop', 'english'],
-    album: "thank u, next",
-    qqUrl: "https://.....",
-    fileUrl: "music/test/The Kid LAROI _ Juice WRLD - GO (Explicit).mp3"
-  }, {
-    id: 14,
-    title: 'Blue',
-    singer: 2,
-    tags: ['pop', 'english'],
-    album: "Blue Neighbourhood(Deluxe)",
-    qqUrl: "https://.....",
-    fileUrl: "music/test/The Kid LAROI _ Juice WRLD - GO (Explicit).mp3"
-  }, {
-    id: 15,
-    title: 'Postcard(Explicit)',
-    singer: 2,
-    tags: ['pop', 'english'],
-    album: "Bloom",
-    qqUrl: "https://.....",
-    fileUrl: "music/test/The Kid LAROI _ Juice WRLD - GO (Explicit).mp3"
-  }, {
-    id: 16,
-    title: 'Seventeen',
-    singer: 2,
-    tags: ['pop', 'english'],
-    album: "Bloom",
-    qqUrl: "https://.....",
-    fileUrl: "music/test/The Kid LAROI _ Juice WRLD - GO (Explicit).mp3"
-  }, {
-    id: 17,
-    title: 'Paris in the Rain(remix)',
-    singer: 2,
-    tags: ['pop', 'english'],
-    album: "Bloom",
-    qqUrl: "https://.....",
-    fileUrl: "music/test/The Kid LAROI _ Juice WRLD - GO (Explicit).mp3"
-  }, {
-
-    id: 18,
-    title: 'Go',
-    singer: 2,
-    tags: ['pop', 'english'],
-    album: "Bloom",
-    imageUrl: "image/deathbed.jpg",
-    fileUrl: "music/test/The Kid LAROI _ Juice WRLD - GO (Explicit).mp3"
-
-  }
-]
 
 var specialRecommendation = [
   {
@@ -238,6 +248,126 @@ var specialRecommendation = [
     album: "Liability",
     imageUrl: "https://blobs.zhxi.co/students/iris/image/liability.jpg",
     fileUrl: "https://blobs.zhxi.co/students/iris/formal/Jasper Zheng - Liability.mp3"
+  }, {
+    id: 211,
+    title: '暴风雨',
+    singer: [19],
+    tags: ['POP', 'English'],
+    album: "Type-3",
+    imageUrl: "https://blobs.zhxi.co/students/iris/image/sp1.jpg",
+    fileUrl: "https://blobs.zhxi.co/students/iris/formal/Higher Brothers _ HARIKIRI - 暴风雨.mp3"
+  }, {
+    id: 212,
+    title: 'Memories',
+    singer: [110],
+    tags: ['POP', 'English'],
+    album: "Memories",
+    imageUrl: "https://blobs.zhxi.co/students/iris/image/sp2.jpg",
+    fileUrl: "https://blobs.zhxi.co/students/iris/formal/Maroon 5 - Memories.mp3"
+  }, {
+    id: 213,
+    title: 'Everybody Dies In Their Nightmares',
+    singer: [111],
+    tags: ['POP', 'English'],
+    album: "17",
+    imageUrl: "https://blobs.zhxi.co/students/iris/image/sp3.jpg",
+    fileUrl: "https://blobs.zhxi.co/students/iris/formal/XXXTentacion - Everybody Dies In Their Nightmares.mp3"
+  }, {
+    id: 214,
+    title: 'Monster',
+    singer: [112,113],
+    tags: ['POP', 'English'],
+    album: "Monster",
+    imageUrl: "https://blobs.zhxi.co/students/iris/image/sp4.jpg",
+    fileUrl: "https://blobs.zhxi.co/students/iris/formal/Shawn Mendes _ Justin Bieber - Monster.mp3"
+  }, {
+    id: 215,
+    title: 'Chicago Freestyle',
+    singer: [114,116],
+    tags: ['POP', 'English'],
+    album: "Dark Lane Demo Tapes",
+    imageUrl: "https://blobs.zhxi.co/students/iris/image/sp5.jpg",
+    fileUrl: "https://blobs.zhxi.co/students/iris/formal/Drake _ Giveon - Chicago Freestyle (Explicit).mp3"
+  }, {
+    id: 216,
+    title: 'wish you were gay',
+    singer: [5],
+    tags: ['POP', 'English'],
+    album: "WHEN WE ALL FALL ASLEEP,WHERE DO WE GO?",
+    imageUrl: "https://blobs.zhxi.co/students/iris/image/sp6.jpg",
+    fileUrl: "https://blobs.zhxi.co/students/iris/formal/Billie Eilish - wish you were gay.mp3"
+  }, {
+    id: 217,
+    title: 'Cherry Hill',
+    singer: [117],
+    tags: ['POP', 'English'],
+    album: "There's Really A Wolf",
+    imageUrl: "https://blobs.zhxi.co/students/iris/image/sp7.jpg",
+    fileUrl: "https://blobs.zhxi.co/students/iris/formal/Russ - Cherry Hill.mp3"
+  }, {
+    id: 218,
+    title: 'Heather',
+    singer: [118],
+    tags: ['POP', 'English'],
+    album: "Kid Know",
+    imageUrl: "https://blobs.zhxi.co/students/iris/image/sp8.jpg",
+    fileUrl: "https://blobs.zhxi.co/students/iris/formal/Conan Gray - Heather(1).mp3"
+  }, {
+    id: 219,
+    title: "i'm so tired...",
+    singer: [2,18],
+    tags: ['POP', 'English'],
+    album: "i'm so tired...",
+    imageUrl: "https://blobs.zhxi.co/students/iris/image/sp9.jpg",
+    fileUrl: "https://blobs.zhxi.co/students/iris/formal/Lauv _ Troye Sivan - i'm so tired___.mp3"
+  }, {
+    id: 220,
+    title: "Lonely",
+    singer: [112,119],
+    tags: ['POP', 'English'],
+    album: "Lonely",
+    imageUrl: "https://blobs.zhxi.co/students/iris/image/sp10.jpg",
+    fileUrl: "https://blobs.zhxi.co/students/iris/formal/Justin Bieber _ benny blanco - Lonely (Acoustic_Explicit).mp3"
+  }, {
+    id: 221,
+    title: "Easily",
+    singer: [120],
+    tags: ['POP', 'English'],
+    album: "Easily",
+    imageUrl: "https://blobs.zhxi.co/students/iris/image/sp11.jpg",
+    fileUrl: "https://blobs.zhxi.co/students/iris/formal/Bruno Major - Easily.mp3"
+  }, {
+    id: 222,
+    title: "和你",
+    singer: [121],
+    tags: ['POP', 'English'],
+    album: "幸福三部曲",
+    imageUrl: "https://blobs.zhxi.co/students/iris/image/sp12.jpg",
+    fileUrl: "https://blobs.zhxi.co/students/iris/formal/余佳运 - 和你.mp3"
+  }, {
+    id: 223,
+    title: "EYES,NOSE,LIPS",
+    singer: [122,123],
+    tags: ['POP', 'English'],
+    album: "EYES,NOSE,LIPS",
+    imageUrl: "https://blobs.zhxi.co/students/iris/image/sp13.jpg",
+    fileUrl: "https://blobs.zhxi.co/students/iris/formal/Tablo (타블로) _ 太阳 (태양) - EYES, NOSE, LIPS.mp3"
+  }, {
+    id: 224,
+    title: "Come and See Me",
+    singer: [114,115],
+    tags: ['POP', 'English'],
+    album: "Come and See Me",
+    imageUrl: "https://blobs.zhxi.co/students/iris/image/sp14.jpg",
+    fileUrl: "https://blobs.zhxi.co/students/iris/formal/PARTYNEXTDOOR _ Drake - Come and See Me (Explicit).mp3"
+  }, {
+    id: 225,
+    title: "Don't Matter To Me",
+    singer: [114,124],
+    tags: ['POP', 'English'],
+    album: "Scorpion",
+    imageUrl: "https://blobs.zhxi.co/students/iris/image/sp15.jpg",
+    fileUrl: "https://blobs.zhxi.co/students/iris/formal/Drake _ Michael Jackson - Don't Matter To Me.mp3"
   }
 
 ]
@@ -521,7 +651,6 @@ var TheBestOfTroyeSivan = [1234, 1235, 1236]
 
 
 var exports = {
-  songs: songs,
   bestList: TheBestOfTroyeSivan,
   singers: singers,
   specialRecommendation: specialRecommendation,
