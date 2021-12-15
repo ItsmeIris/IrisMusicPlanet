@@ -124,7 +124,7 @@ class Homepage extends React.Component {
                 <Grid.Column>
                   <div className="title">
                     <h1 className="x-title">Music Planet</h1>
-                    <h3 className="x-subtitle">welcome!</h3>
+                    <h3 className="x-subtitle">Iris</h3>
                     <div className="x-text">Sharing my favorite music！</div>
                     <div className="x-button-wrapper">
                       <Button color="pink">Go check</Button>
@@ -150,7 +150,7 @@ class Homepage extends React.Component {
         </div>
 
         <div id="section1-3" className="section">
-          <h1>exploring music world</h1>
+          <h1>Exploring music world with Iris!</h1>
           <br />
         </div>
 
@@ -216,7 +216,7 @@ class Homepage extends React.Component {
                     <h1>Dusk Till Down</h1>
                     <Icon disabled name='heart' /><Icon disabled name='heart' /><Icon disabled name='heart' /><Icon disabled name='heart' /><Icon disabled name='heart outline' />
                     <h3>
-                    An mv with movie-like wonderful plot</h3>
+                    An mv with movie-like wonderful plots</h3>
                     <h4>
                     With perfect chemical reaction of ZAYN and Sia's voice, this song debuted at number 44 on the US Billboard chart [1] in its first week, topping the charts in 6 countries and reaching the top 10 in 20 countries including Australia, Canada, Countries, France and the UK.
                     </h4>
