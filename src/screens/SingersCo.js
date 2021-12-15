@@ -61,7 +61,7 @@ class SingersColumn extends React.Component {
         </div>
 
 
-        <div id="section1-7" className="section">
+        <div id="section3-2" className="section">
           <Container>
 
             <Grid>
@@ -90,7 +90,7 @@ class SingersColumn extends React.Component {
 
 
                 <Grid.Column width={"100%"}>
-                  <div id="section1-7-2" className="words">
+                  <div id="section3-2" className="words">
                     <h1>Taylor Swift</h1>
                     <h3>"Sweetner" in my life</h3>
                     <h5> "She is a star on her own terms, never bending to any particular musical trend or path in the industry"</h5>
@@ -113,14 +113,14 @@ class SingersColumn extends React.Component {
 
 
 
-        <div id="section1-8" className="section">
+        <div id="section3-3" className="section">
           <Container>
 
             <Grid>
               <Grid.Row columns={2}>
 
                 <Grid.Column width={"100%"}>
-                  <div id="section1-8-1" className="words">
+                  <div id="section3-3" className="words">
                     <h1>Bazzi</h1>
                     <h3>"Bloom" like a flower</h3>
                     <h5> "She is a star on her own terms, never bending to any particular musical trend or path in the industry"</h5>
@@ -160,7 +160,7 @@ class SingersColumn extends React.Component {
         </div>
 
 
-        <div id="section1-9" className="section">
+        <div id="section3-4" className="section">
           <Container>
 
             <Grid>
@@ -187,7 +187,7 @@ class SingersColumn extends React.Component {
                 </Grid.Column>
 
                 <Grid.Column width={"100%"}>
-                  <div id="section1-9-1" className="words">
+                  <div id="section3-4" className="words">
                     <h1>Lauv</h1>
                     <h3>"8TEEN" but the opposite of "Young Dumb & Broke"</h3>
                     <h5> "She is a star on her own terms, never bending to any particular musical trend or path in the industry"</h5>
@@ -204,6 +204,100 @@ class SingersColumn extends React.Component {
             </Grid>
           </Container>
         </div>
+
+
+        <div id="section3-5" className="section">
+          <Container>
+
+            <Grid>
+              <Grid.Row columns={2}>
+
+                <Grid.Column width={"100%"}>
+                  <div id="section3-5" className="words">
+                    <h1>Khalil Fong</h1>
+                    <h3>"Bloom" like a flower</h3>
+                    <h5> "She is a star on her own terms, never bending to any particular musical trend or path in the industry"</h5>
+                    <p>Knowing Ariana Grande through her music then getting to learn more about her as a person,
+                    her voice can always make me cheer up and stay faithful and her convictions and actions that "consistently stands up for herself
+                    and her decisions in a world that isn't often hospitable to that sort of strength in young women"  constantly motivate me to keep moving forward...
+                    </p>
+                    
+                    <Button circular size="big" as={Link} to="artist/2" onClick={this.openImage3}>check</Button>
+                  </div>
+                </Grid.Column>
+
+
+                <Grid.Column width={"100%"}>
+                  <div id="image1" className="imagesection">
+                    <Grid>
+                      <Grid.Column width={8} >
+                        <Image src='https://blobs.zhxi.co/students/iris/image/fdt4.jpg' />
+                      </Grid.Column>
+                      <Grid.Column width={8}>
+                        <Image src='https://blobs.zhxi.co/students/iris/image/fdt1.jpg' />
+                      </Grid.Column>
+
+                      <Grid.Column width={8}>
+                        <Image src='https://blobs.zhxi.co/students/iris/image/fdt2.jpg' />
+                      </Grid.Column>
+                      <Grid.Column width={8}>
+                        <Image src='https://blobs.zhxi.co/students/iris/image/fdt3.jpg' />
+                      </Grid.Column>
+                    </Grid>
+                  </div>
+                </Grid.Column>
+
+              </Grid.Row>
+            </Grid>
+          </Container>
+        </div>
+
+        <div id="section3-6" className="section">
+          <Container>
+
+            <Grid>
+              <Grid.Row columns={2}>
+
+                <Grid.Column width={"100%"}>
+                  <div id="image1" className="imagesection">
+                    <Grid>
+                      <Grid.Column width={6} >
+                        <Image src='https://blobs.zhxi.co/students/iris/image/niki4.jpg' />
+                      </Grid.Column>
+                      <Grid.Column width={8}>
+                        <Image src='https://blobs.zhxi.co/students/iris/image/niki3.jpg' />
+                      </Grid.Column>
+
+                      <Grid.Column width={8}>
+                        <Image src='https://blobs.zhxi.co/students/iris/image/niki1.jpg' />
+                      </Grid.Column>
+                      <Grid.Column width={8}>
+                        <Image src='https://blobs.zhxi.co/students/iris/image/niki2.jpg' />
+                      </Grid.Column>
+                    </Grid>
+                  </div>
+                </Grid.Column>
+
+                <Grid.Column width={"100%"}>
+                  <div id="section3-6" className="words">
+                    <h1>Niki</h1>
+                    <h3>"8TEEN" but the opposite of "Young Dumb & Broke"</h3>
+                    <h5> "She is a star on her own terms, never bending to any particular musical trend or path in the industry"</h5>
+                    <p>Knowing Ariana Grande through her music then getting to learn more about her as a person,
+                    her voice can always make me cheer up and stay faithful and her convictions and actions that "consistently stands up for herself
+                    and her decisions in a world that isn't often hospitable to that sort of strength in young women"  constantly motivate me to keep moving forward...
+                    </p>
+                    
+                    <Button circular size="big" as={Link} to="artist/8" onClick={this.openImage3}>check</Button>
+                  </div>
+                </Grid.Column>
+
+              </Grid.Row>
+            </Grid>
+          </Container>
+        </div>
+
+
 
 
 

@@ -66,6 +66,7 @@ class ListCard extends React.Component {
                                                 id={item.id}
                                                 singer={item.singer}
                                                 album={item.album}
+                                                image={item.album}
                                                 clickedOnSong={_self.props.clickedOnSong}
                                             />
                                         </Segment>
